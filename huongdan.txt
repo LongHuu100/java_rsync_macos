@@ -23,3 +23,24 @@
   
 </dict>
 </plist>
+
+
+----------   Win   ------------
+# Automatically abort script on errors
+option batch abort
+
+# Disable overwrite confirmations that conflict with the previous
+option confirm off
+
+# Force binary mode transfer
+option transfer binary
+
+open sftp://FTP_USERNAME:FTP_PASSWORD@FTP_DOMAIN.COM/ -hostkey="ssh-dss 1024 ##:##:##:##:##:##:##:##:##:##:##:##:##:##:##:##"
+
+# Publish local theme number 1 up to server, while deleting obsolete files from server.
+
+synchronize remote C:\local\path\to\your\site\folder /home/content/remote/path/to/your/live/site/on/server/
+ 
+echo Job is complete.
+
+exit
