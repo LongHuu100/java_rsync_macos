@@ -1,0 +1,25 @@
+1. Tạo ssh key trước, sau đó copy ssh lên server.
+2. Cài đặt fswatch và rsync (run as deamon).
+3. Tạo file LaunchAgents để khởi động việc lắng nghe sự thay đổi file trên hệ thống.
+	- /Users/nguyenvanhuu/Library/LaunchAgents/huunv.file.to.server.plist.
+4. Run LaunchAgents bặng lệnh: 
+	launchctl load -w (unload) /Users/nguyenvanhuu/Library/LaunchAgents/fswatch.arsync.plist
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>huunv.file.to.server</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/nguyenvanhuu/Downloads/java-rsync-mac/sh.script.in</string>
+    <string>start</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <true/>
+  
+</dict>
+</plist>

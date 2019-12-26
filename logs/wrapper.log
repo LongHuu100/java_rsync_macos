@@ -1,0 +1,1460 @@
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | The "wrapper.name" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Ignoring redefinition on line #200 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Fixed Value wrapper.name=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Ignored Value wrapper.name=testwrapper
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | The "wrapper.displayname" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Ignoring redefinition on line #203 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Fixed Value wrapper.displayname=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Ignored Value wrapper.displayname=Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Spawning intermediate process...
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Spawning daemon process...
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Reloading configuration.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Configured log file set to '/Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log'.
+STATUS | wrapper  | 2019/12/26 10:20:28 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2019/12/26 10:20:28 | Java Service Wrapper Community Edition 64-bit 3.5.41
+STATUS | wrapper  | 2019/12/26 10:20:28 |   Copyright (C) 1999-2019 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2019/12/26 10:20:28 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2019/12/26 10:20:28 | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Release time: 2019/10/31 00:00:00
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Build time:   2019/10/30 18:43:00
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Timezone:     +07 (   ) Offset: -25200, hasDaylight: 0
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Using tick timer.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | PID:          85473
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Wrapper configuration properties BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.app.parameter.1                              | com.run.RunUpp.start
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.check.deadlock                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.check.deadlock.action                        | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.check.deadlock.interval                      | 10
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.check.deadlock.output                        | FULL
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.console.format                               | PM
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.console.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.console.title                                | Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.daemonize                                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.debug                                        | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.description                                  | Test Wrapper Sample Application Description
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.displayname                                  | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.event.jvm_restart.email.body                 | The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.action.1000                           | NONE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.action.1001                           | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.action.999                            | NONE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.allow_wildcards.999                   | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.message.1001                          | The JVM has run out of memory.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.trigger.1000                          | [Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.trigger.1001                          | java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.filter.trigger.999                           | wrapper.filter.trigger.*java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.ignore_sequence_gaps                         | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.additional.auto_bits                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.classpath.1                             | ../code/Until.jar
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.classpath.2                             | ../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.command                                 | java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.library.path.1                          | ../lib
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.java.mainclass                               | org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.java.statusfile                              | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.java.status
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.lang.folder                                  | ../lang
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.logfile                                      | ../logs/wrapper.log
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.logfile.format                               | LPTM
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.logfile.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.logfile.maxfiles                             | 0
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.logfile.maxsize                              | 0
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.name                                         | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.ntservice.dependency.1                       | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.ntservice.interactive                        | FALSE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.ntservice.starttype                          | AUTO_START
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.pidfile                                      | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.pid
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.pidfile.strict                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit       | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit.delay | 20
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.script.version                               | 3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.statusfile                                   | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.status
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   C | F | wrapper.syslog.ident                                 | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   F |   | wrapper.syslog.loglevel                              | NONE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Wrapper configuration properties END:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | _=/Users/nguyenvanhuu/Downloads/java-rsync-mac/./bin/wrapper
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | ANDROID_HOME=/Users/nguyenvanhuu/Documents/android/sdk
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | ANDROID_SDK_ROOT=/Users/nguyenvanhuu/Documents/android/sdk
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.o0XSMSVLFP/Render
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | HOME=/Users/nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | LC_CTYPE=UTF-8
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | LOGNAME=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/nguyenvanhuu/Documents/android/sdk/tools:/Users/nguyenvanhuu/Documents/android/sdk/platform-tools:/Users/nguyenvanhuu/Documents/android/sdk:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/nguyenvanhuu/Documents/android/sdk/tools:/Users/nguyenvanhuu/Documents/android/sdk/platform-tools
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | PWD=/Users/nguyenvanhuu/Downloads/java-rsync-mac
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | SHLVL=2
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.swUGRHzp5Y/Listeners
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | TERM=xterm-256color
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | TERM_PROGRAM=Apple_Terminal
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | TERM_PROGRAM_VERSION=421.1.1
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | TERM_SESSION_ID=82C7A215-C745-4BE8-BC04-82EF0AFB7C47
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | TMPDIR=/var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T/
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | USER=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_ARCH=universal
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_BASE_NAME=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_BIN_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_CONF_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/conf
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_EDITION=Community
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_HOST_NAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_HOSTNAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P--W- | WRAPPER_INIT_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_OS=macosx
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_PID=85473
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_RUN_MODE=service
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_VERSION=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   ---W- | WRAPPER_WORKING_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | XPC_FLAGS=0x0
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   P---- | XPC_SERVICE_NAME=0
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Environment variables END:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | 
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Number of open file descriptors limits: 256 (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Data segment size limits: unlimited (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2019/12/26 10:20:28 | server listening on port 32000.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the path /Library/Frameworks/Python.framework/Versions/3.7/bin/java: No such file or directory (Problem at: /Library/Frameworks/Python.framework/Versions/3.7/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the real path of wrapper.java.command on the system PATH: java
+WARN   | wrapper  | 2019/12/26 10:20:28 | The configured wrapper.java.command could not be found, attempting to launch anyway: java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Java Command Line (Query Java Version):
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[0] : java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[1] : -version
+DEBUG  | jvm ver. | 2019/12/26 10:20:28 | java version "1.8.0_111"
+DEBUG  | jvm ver. | 2019/12/26 10:20:28 | Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+DEBUG  | jvm ver. | 2019/12/26 10:20:28 | Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Java version parsed to: 8.0.111
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Java vendor parsed to: Oracle
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Java bits parsed to: 64-Bit
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Reading the JVM output using the encoding of the current locale (UTF-8).
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the path /Library/Frameworks/Python.framework/Versions/3.7/bin/java: No such file or directory (Problem at: /Library/Frameworks/Python.framework/Versions/3.7/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Unable to resolve the real path of wrapper.java.command on the system PATH: java
+WARN   | wrapper  | 2019/12/26 10:20:28 | The configured wrapper.java.command could not be found, attempting to launch anyway: java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2019/12/26 10:20:28 | Launching a JVM...
+DEBUG  | wrapper  | 2019/12/26 10:20:28 | Java Command Line:
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[0] : java
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[1] : -d64
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[2] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[3] : -classpath
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[4] : ../code/Until.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[5] : -Dwrapper.key=NGgUD5EqzC1t2VHG
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[6] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[7] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[8] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[9] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[10] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[11] : -Dwrapper.pid=85473
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[12] : -Dwrapper.version=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[13] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[14] : -Dwrapper.arch=universal
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[15] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[16] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[17] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[18] : org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:20:28 |   Command[19] : com.run.RunUpp.start
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@6bc7c054
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:   Implementation Version: 3.5.41
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:   Location: file:/Users/nguyenvanhuu/Downloads/java-rsync-mac/lib/wrapper.jar
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:     Size: 127,029
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug:     MD5: 51eb9ad242329a1d9ebba0c52fefd849
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2019/12/26 10:20:28 | WrapperManager Debug: Using the Wrapper
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-macosx-universal-64.dylib  Result: no wrapper-macosx-universal-64 in java.library.path
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.dylib  Result: Success!
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Java PID       : 85475
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Java Version   : 1.8.0_111-b14 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: OS Name        : Mac OS X
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: OS Arch        : x86_64
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: 
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperSimpleApp, args[]) called by thread: main
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Open socket to Wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Opened Socket from 31,000 to 32,000
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Send a packet KEY : NGgUD5EqzC1t2VHG
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: handleBackend()
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | closing backend server.
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | read a packet KEY : NGgUD5EqzC1t2VHG
+DEBUG  | wrapper  | 2019/12/26 10:20:29 | Got key from JVM: NGgUD5EqzC1t2VHG
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | Send a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | Send a packet PROPERTIES : (Property Values, Size=7766)
+DEBUG  | wrapper  | 2019/12/26 10:20:29 | Start Application.
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | Send a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Received a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=7766)
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Java temporary directory: /var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperSimpleApp Error: Unable to locate the class com.run.RunUpp.start : java.lang.ClassNotFoundException: com.run.RunUpp.start
+INFO   | jvm 1    | 2019/12/26 10:20:29 | 
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2019/12/26 10:20:29 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class{/app_method}} [app_arguments]
+INFO   | jvm 1    | 2019/12/26 10:20:29 | 
+INFO   | jvm 1    | 2019/12/26 10:20:29 | Where:
+INFO   | jvm 1    | 2019/12/26 10:20:29 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2019/12/26 10:20:29 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2019/12/26 10:20:29 |                   application.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: WrapperListener.start() returned an exit code of 1.
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: WrapperManager.stop(1) called by thread: WrapperListener_start_runner
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Send a packet STOP : 1
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Pausing for 1,000ms to allow a clean shutdown...
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | read a packet STOP : 1
+DEBUG  | wrapper  | 2019/12/26 10:20:29 | JVM requested a shutdown. (1)
+DEBUG  | wrapper  | 2019/12/26 10:20:29 | wrapperStopProcess(1, FALSE) called.
+DEBUG  | wrapper  | 2019/12/26 10:20:29 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2019/12/26 10:20:29 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2019/12/26 10:20:29 | WrapperManager Debug: Stopped checking for control events.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Thread, WrapperListener_start_runner, handling the shutdown process.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: shutdownJVM(1) Thread: WrapperListener_start_runner
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Send a packet STOPPED : 1
+DEBUG  | wrapperp | 2019/12/26 10:20:30 | read a packet STOPPED : 1
+DEBUG  | wrapper  | 2019/12/26 10:20:30 | JVM signaled that it was stopped.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Closed backend socket (Normal): java.net.SocketException: Socket closed
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Returned from backend handler.
+DEBUG  | wrapperp | 2019/12/26 10:20:30 | socket read no code (closed?).
+DEBUG  | wrapperp | 2019/12/26 10:20:30 | Closing backend socket.
+DEBUG  | wrapper  | 2019/12/26 10:20:30 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:20:30 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:20:30 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:20:30 | JVM process exited with a code of 1, however the Wrapper exit code was already 1.
+DEBUG  | wrapper  | 2019/12/26 10:20:30 | JVM exited normally.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperJNI Debug: Disposing WrapperManager native library.
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: Server daemon shut down
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: calling System.exit(1)
+INFO   | jvm 1    | 2019/12/26 10:20:30 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2019/12/26 10:20:31 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | The "wrapper.name" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Ignoring redefinition on line #200 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Fixed Value wrapper.name=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Ignored Value wrapper.name=testwrapper
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | The "wrapper.displayname" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Ignoring redefinition on line #203 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Fixed Value wrapper.displayname=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Ignored Value wrapper.displayname=Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Spawning intermediate process...
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Spawning daemon process...
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Reloading configuration.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Configured log file set to '/Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log'.
+STATUS | wrapper  | 2019/12/26 10:26:38 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2019/12/26 10:26:38 | Java Service Wrapper Community Edition 64-bit 3.5.41
+STATUS | wrapper  | 2019/12/26 10:26:38 |   Copyright (C) 1999-2019 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2019/12/26 10:26:38 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2019/12/26 10:26:38 | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Release time: 2019/10/31 00:00:00
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Build time:   2019/10/30 18:43:00
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Timezone:     +07 (   ) Offset: -25200, hasDaylight: 0
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Using tick timer.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | PID:          95169
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Wrapper configuration properties BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.app.parameter.1                              | com.run.RunUpp
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.check.deadlock                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.check.deadlock.action                        | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.check.deadlock.interval                      | 10
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.check.deadlock.output                        | FULL
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.console.format                               | PM
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.console.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.console.title                                | Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.daemonize                                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.debug                                        | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.description                                  | Test Wrapper Sample Application Description
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.displayname                                  | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.event.jvm_restart.email.body                 | The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.action.1000                           | NONE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.action.1001                           | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.action.999                            | NONE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.allow_wildcards.999                   | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.message.1001                          | The JVM has run out of memory.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.trigger.1000                          | [Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.trigger.1001                          | java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.filter.trigger.999                           | wrapper.filter.trigger.*java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.ignore_sequence_gaps                         | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.additional.auto_bits                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.classpath.1                             | ../code/Until.jar
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.classpath.2                             | ../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.command                                 | java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.library.path.1                          | ../lib
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.java.mainclass                               | org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.java.statusfile                              | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.java.status
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.lang.folder                                  | ../lang
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.logfile                                      | ../logs/wrapper.log
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.logfile.format                               | LPTM
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.logfile.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.logfile.maxfiles                             | 0
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.logfile.maxsize                              | 0
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.name                                         | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.ntservice.dependency.1                       | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.ntservice.interactive                        | FALSE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.ntservice.starttype                          | AUTO_START
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.pidfile                                      | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.pid
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.pidfile.strict                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit       | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit.delay | 20
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.script.version                               | 3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.statusfile                                   | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.status
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   C | F | wrapper.syslog.ident                                 | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   F |   | wrapper.syslog.loglevel                              | NONE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Wrapper configuration properties END:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | _=/Users/nguyenvanhuu/Downloads/java-rsync-mac/./bin/wrapper
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | ANDROID_HOME=/Users/nguyenvanhuu/Documents/android/sdk
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | ANDROID_SDK_ROOT=/Users/nguyenvanhuu/Documents/android/sdk
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.o0XSMSVLFP/Render
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | HOME=/Users/nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | LC_CTYPE=UTF-8
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | LOGNAME=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/nguyenvanhuu/Documents/android/sdk/tools:/Users/nguyenvanhuu/Documents/android/sdk/platform-tools:/Users/nguyenvanhuu/Documents/android/sdk:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/nguyenvanhuu/Documents/android/sdk/tools:/Users/nguyenvanhuu/Documents/android/sdk/platform-tools
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | PWD=/Users/nguyenvanhuu/Downloads/java-rsync-mac
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | SHLVL=2
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.swUGRHzp5Y/Listeners
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | TERM=xterm-256color
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | TERM_PROGRAM=Apple_Terminal
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | TERM_PROGRAM_VERSION=421.1.1
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | TERM_SESSION_ID=82C7A215-C745-4BE8-BC04-82EF0AFB7C47
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | TMPDIR=/var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T/
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | USER=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_ARCH=universal
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_BASE_NAME=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_BIN_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_CONF_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/conf
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_EDITION=Community
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_HOST_NAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_HOSTNAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P--W- | WRAPPER_INIT_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_OS=macosx
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_PID=95169
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_RUN_MODE=service
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_VERSION=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   ---W- | WRAPPER_WORKING_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | XPC_FLAGS=0x0
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   P---- | XPC_SERVICE_NAME=0
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Environment variables END:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | 
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Number of open file descriptors limits: 256 (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Data segment size limits: unlimited (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2019/12/26 10:26:38 | server listening on port 32000.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the path /Library/Frameworks/Python.framework/Versions/3.7/bin/java: No such file or directory (Problem at: /Library/Frameworks/Python.framework/Versions/3.7/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the real path of wrapper.java.command on the system PATH: java
+WARN   | wrapper  | 2019/12/26 10:26:38 | The configured wrapper.java.command could not be found, attempting to launch anyway: java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Java Command Line (Query Java Version):
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[0] : java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[1] : -version
+DEBUG  | jvm ver. | 2019/12/26 10:26:38 | java version "1.8.0_111"
+DEBUG  | jvm ver. | 2019/12/26 10:26:38 | Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+DEBUG  | jvm ver. | 2019/12/26 10:26:38 | Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Java version parsed to: 8.0.111
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Java vendor parsed to: Oracle
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Java bits parsed to: 64-Bit
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Reading the JVM output using the encoding of the current locale (UTF-8).
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the path /Library/Frameworks/Python.framework/Versions/3.7/bin/java: No such file or directory (Problem at: /Library/Frameworks/Python.framework/Versions/3.7/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Unable to resolve the real path of wrapper.java.command on the system PATH: java
+WARN   | wrapper  | 2019/12/26 10:26:38 | The configured wrapper.java.command could not be found, attempting to launch anyway: java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2019/12/26 10:26:38 | Launching a JVM...
+DEBUG  | wrapper  | 2019/12/26 10:26:38 | Java Command Line:
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[0] : java
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[1] : -d64
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[2] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[3] : -classpath
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[4] : ../code/Until.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[5] : -Dwrapper.key=NlRBL62BVsWFvHtF
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[6] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[7] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[8] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[9] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[10] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[11] : -Dwrapper.pid=95169
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[12] : -Dwrapper.version=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[13] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[14] : -Dwrapper.arch=universal
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[15] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[16] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[17] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[18] : org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:26:38 |   Command[19] : com.run.RunUpp
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@6bc7c054
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug:   Implementation Version: 3.5.41
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2019/12/26 10:26:38 | WrapperManager Debug:   Location: file:/Users/nguyenvanhuu/Downloads/java-rsync-mac/lib/wrapper.jar
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug:     Size: 127,029
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug:     MD5: 51eb9ad242329a1d9ebba0c52fefd849
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Using the Wrapper
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-macosx-universal-64.dylib  Result: no wrapper-macosx-universal-64 in java.library.path
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.dylib  Result: Success!
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Java PID       : 95171
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Java Version   : 1.8.0_111-b14 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: OS Name        : Mac OS X
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: OS Arch        : x86_64
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: 
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperSimpleApp, args[]) called by thread: main
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Open socket to Wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Opened Socket from 31,000 to 32,000
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Send a packet KEY : NlRBL62BVsWFvHtF
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: handleBackend()
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | closing backend server.
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | read a packet KEY : NlRBL62BVsWFvHtF
+DEBUG  | wrapper  | 2019/12/26 10:26:39 | Got key from JVM: NlRBL62BVsWFvHtF
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | Send a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | Send a packet PROPERTIES : (Property Values, Size=7760)
+DEBUG  | wrapper  | 2019/12/26 10:26:39 | Start Application.
+DEBUG  | wrapperp | 2019/12/26 10:26:39 | Send a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Received a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=7760)
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Java temporary directory: /var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperSimpleApp Debug: start(args) Will wait up to 2 seconds for the main method to complete.
+INFO   | jvm 1    | 2019/12/26 10:26:39 | WrapperSimpleApp Debug: invoking main method
+INFO   | jvm 1    | 2019/12/26 10:26:39 | /Users/nguyenvanhuu/Downloads/DongboFile_Macos
+INFO   | jvm 1    | 2019/12/26 10:26:40 | WrapperManager Debug: Send a packet START_PENDING : 5000
+DEBUG  | wrapperp | 2019/12/26 10:26:40 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:26:40 | JVM signaled a start pending with waitHint of 5000 millis.
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperManager Debug: Send a packet START_PENDING : 5000
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperSimpleApp Debug: start(args) end.  Main Completed=false, exitCode=null
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperManager Debug: Send a packet STARTED : 
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperManager Debug: WrapperListener.start runner thread stopped.
+INFO   | jvm 1    | 2019/12/26 10:26:41 | WrapperManager Debug: Startup runner thread stopped.
+DEBUG  | wrapperp | 2019/12/26 10:26:41 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:26:41 | JVM signaled a start pending with waitHint of 5000 millis.
+DEBUG  | wrapperp | 2019/12/26 10:26:41 | read a packet STARTED : 
+DEBUG  | wrapper  | 2019/12/26 10:26:41 | JVM signaled that it was started.
+DEBUG  | wrapperp | 2019/12/26 10:26:43 | Send a packet PING : ping fffffe33
+INFO   | jvm 1    | 2019/12/26 10:26:43 | WrapperManager Debug: Received a packet PING : ping fffffe33
+INFO   | jvm 1    | 2019/12/26 10:26:43 | WrapperManager Debug: Send a packet PING : ping fffffe33
+DEBUG  | wrapperp | 2019/12/26 10:26:43 | read a packet PING : ping fffffe33
+DEBUG  | wrapperp | 2019/12/26 10:26:48 | Send a packet PING : ping fffffe65
+INFO   | jvm 1    | 2019/12/26 10:26:48 | WrapperManager Debug: Received a packet PING : ping fffffe65
+INFO   | jvm 1    | 2019/12/26 10:26:48 | WrapperManager Debug: Send a packet PING : ping fffffe65
+DEBUG  | wrapperp | 2019/12/26 10:26:48 | read a packet PING : ping fffffe65
+DEBUG  | wrapperp | 2019/12/26 10:26:53 | Send a packet PING : ping fffffe97
+INFO   | jvm 1    | 2019/12/26 10:26:53 | WrapperManager Debug: Received a packet PING : ping fffffe97
+INFO   | jvm 1    | 2019/12/26 10:26:53 | WrapperManager Debug: Send a packet PING : ping fffffe97
+DEBUG  | wrapperp | 2019/12/26 10:26:53 | read a packet PING : ping fffffe97
+DEBUG  | wrapperp | 2019/12/26 10:26:58 | Send a packet PING : ping fffffec9
+INFO   | jvm 1    | 2019/12/26 10:26:58 | WrapperManager Debug: Received a packet PING : ping fffffec9
+INFO   | jvm 1    | 2019/12/26 10:26:58 | WrapperManager Debug: Send a packet PING : ping fffffec9
+DEBUG  | wrapperp | 2019/12/26 10:26:58 | read a packet PING : ping fffffec9
+DEBUG  | wrapperp | 2019/12/26 10:27:03 | Send a packet PING : ping fffffefb
+INFO   | jvm 1    | 2019/12/26 10:27:04 | WrapperManager Debug: Received a packet PING : ping fffffefb
+INFO   | jvm 1    | 2019/12/26 10:27:04 | WrapperManager Debug: Send a packet PING : ping fffffefb
+DEBUG  | wrapperp | 2019/12/26 10:27:04 | read a packet PING : ping fffffefb
+DEBUG  | wrapperp | 2019/12/26 10:27:09 | Send a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2019/12/26 10:27:09 | WrapperManager Debug: Received a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2019/12/26 10:27:09 | WrapperManager Debug: Send a packet PING : ping ffffff2d
+DEBUG  | wrapperp | 2019/12/26 10:27:09 | read a packet PING : ping ffffff2d
+DEBUG  | wrapperp | 2019/12/26 10:27:14 | Send a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2019/12/26 10:27:14 | WrapperManager Debug: Received a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2019/12/26 10:27:14 | WrapperManager Debug: Send a packet PING : ping ffffff5f
+DEBUG  | wrapperp | 2019/12/26 10:27:14 | read a packet PING : ping ffffff5f
+DEBUG  | wrapperp | 2019/12/26 10:27:19 | Send a packet PING : ping ffffff91
+INFO   | jvm 1    | 2019/12/26 10:27:19 | WrapperManager Debug: Received a packet PING : ping ffffff91
+INFO   | jvm 1    | 2019/12/26 10:27:19 | WrapperManager Debug: Send a packet PING : ping ffffff91
+DEBUG  | wrapperp | 2019/12/26 10:27:19 | read a packet PING : ping ffffff91
+DEBUG  | wrapperp | 2019/12/26 10:27:24 | Send a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2019/12/26 10:27:24 | WrapperManager Debug: Received a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2019/12/26 10:27:24 | WrapperManager Debug: Send a packet PING : ping ffffffc3
+DEBUG  | wrapperp | 2019/12/26 10:27:24 | read a packet PING : ping ffffffc3
+DEBUG  | wrapperp | 2019/12/26 10:27:29 | Send a packet PING : ping fffffff5
+INFO   | jvm 1    | 2019/12/26 10:27:29 | WrapperManager Debug: Received a packet PING : ping fffffff5
+INFO   | jvm 1    | 2019/12/26 10:27:29 | WrapperManager Debug: Send a packet PING : ping fffffff5
+DEBUG  | wrapperp | 2019/12/26 10:27:29 | read a packet PING : ping fffffff5
+DEBUG  | wrapperp | 2019/12/26 10:27:34 | Send a packet PING : ping 00000027
+INFO   | jvm 1    | 2019/12/26 10:27:34 | WrapperManager Debug: Received a packet PING : ping 00000027
+INFO   | jvm 1    | 2019/12/26 10:27:34 | WrapperManager Debug: Send a packet PING : ping 00000027
+DEBUG  | wrapperp | 2019/12/26 10:27:34 | read a packet PING : ping 00000027
+DEBUG  | wrapperp | 2019/12/26 10:27:39 | Send a packet PING : ping 00000059
+INFO   | jvm 1    | 2019/12/26 10:27:39 | WrapperManager Debug: Received a packet PING : ping 00000059
+INFO   | jvm 1    | 2019/12/26 10:27:39 | WrapperManager Debug: Send a packet PING : ping 00000059
+DEBUG  | wrapperp | 2019/12/26 10:27:39 | read a packet PING : ping 00000059
+DEBUG  | wrapperp | 2019/12/26 10:27:44 | Send a packet PING : ping 0000008b
+INFO   | jvm 1    | 2019/12/26 10:27:44 | WrapperManager Debug: Received a packet PING : ping 0000008b
+INFO   | jvm 1    | 2019/12/26 10:27:44 | WrapperManager Debug: Send a packet PING : ping 0000008b
+DEBUG  | wrapperp | 2019/12/26 10:27:44 | read a packet PING : ping 0000008b
+DEBUG  | wrapperp | 2019/12/26 10:27:49 | Send a packet PING : ping 000000bd
+INFO   | jvm 1    | 2019/12/26 10:27:49 | WrapperManager Debug: Received a packet PING : ping 000000bd
+INFO   | jvm 1    | 2019/12/26 10:27:49 | WrapperManager Debug: Send a packet PING : ping 000000bd
+DEBUG  | wrapperp | 2019/12/26 10:27:49 | read a packet PING : ping 000000bd
+DEBUG  | wrapperp | 2019/12/26 10:27:54 | Send a packet PING : ping 000000ef
+INFO   | jvm 1    | 2019/12/26 10:27:55 | WrapperManager Debug: Received a packet PING : ping 000000ef
+INFO   | jvm 1    | 2019/12/26 10:27:55 | WrapperManager Debug: Send a packet PING : ping 000000ef
+DEBUG  | wrapperp | 2019/12/26 10:27:55 | read a packet PING : ping 000000ef
+DEBUG  | wrapperp | 2019/12/26 10:27:59 | Send a packet PING : ping 00000121
+INFO   | jvm 1    | 2019/12/26 10:28:00 | WrapperManager Debug: Received a packet PING : ping 00000121
+INFO   | jvm 1    | 2019/12/26 10:28:00 | WrapperManager Debug: Send a packet PING : ping 00000121
+DEBUG  | wrapperp | 2019/12/26 10:28:00 | read a packet PING : ping 00000121
+DEBUG  | wrapperp | 2019/12/26 10:28:05 | Send a packet PING : ping 00000153
+INFO   | jvm 1    | 2019/12/26 10:28:05 | WrapperManager Debug: Received a packet PING : ping 00000153
+INFO   | jvm 1    | 2019/12/26 10:28:05 | WrapperManager Debug: Send a packet PING : ping 00000153
+DEBUG  | wrapperp | 2019/12/26 10:28:05 | read a packet PING : ping 00000153
+DEBUG  | wrapperp | 2019/12/26 10:28:10 | Send a packet PING : ping 00000185
+INFO   | jvm 1    | 2019/12/26 10:28:10 | WrapperManager Debug: Received a packet PING : ping 00000185
+INFO   | jvm 1    | 2019/12/26 10:28:10 | WrapperManager Debug: Send a packet PING : ping 00000185
+DEBUG  | wrapperp | 2019/12/26 10:28:10 | read a packet PING : ping 00000185
+DEBUG  | wrapperp | 2019/12/26 10:28:15 | Send a packet PING : ping 000001b7
+INFO   | jvm 1    | 2019/12/26 10:28:15 | WrapperManager Debug: Received a packet PING : ping 000001b7
+INFO   | jvm 1    | 2019/12/26 10:28:15 | WrapperManager Debug: Send a packet PING : ping 000001b7
+DEBUG  | wrapperp | 2019/12/26 10:28:15 | read a packet PING : ping 000001b7
+DEBUG  | wrapperp | 2019/12/26 10:28:20 | Send a packet PING : ping 000001e9
+INFO   | jvm 1    | 2019/12/26 10:28:20 | WrapperManager Debug: Received a packet PING : ping 000001e9
+INFO   | jvm 1    | 2019/12/26 10:28:20 | WrapperManager Debug: Send a packet PING : ping 000001e9
+DEBUG  | wrapperp | 2019/12/26 10:28:20 | read a packet PING : ping 000001e9
+DEBUG  | wrapperp | 2019/12/26 10:28:25 | Send a packet PING : ping 0000021b
+INFO   | jvm 1    | 2019/12/26 10:28:25 | WrapperManager Debug: Received a packet PING : ping 0000021b
+INFO   | jvm 1    | 2019/12/26 10:28:25 | WrapperManager Debug: Send a packet PING : ping 0000021b
+DEBUG  | wrapperp | 2019/12/26 10:28:25 | read a packet PING : ping 0000021b
+DEBUG  | wrapperp | 2019/12/26 10:28:30 | Send a packet PING : ping 0000024d
+INFO   | jvm 1    | 2019/12/26 10:28:30 | WrapperManager Debug: Received a packet PING : ping 0000024d
+INFO   | jvm 1    | 2019/12/26 10:28:30 | WrapperManager Debug: Send a packet PING : ping 0000024d
+DEBUG  | wrapperp | 2019/12/26 10:28:30 | read a packet PING : ping 0000024d
+DEBUG  | wrapperp | 2019/12/26 10:28:35 | Send a packet PING : ping 0000027f
+INFO   | jvm 1    | 2019/12/26 10:28:35 | WrapperManager Debug: Received a packet PING : ping 0000027f
+INFO   | jvm 1    | 2019/12/26 10:28:35 | WrapperManager Debug: Send a packet PING : ping 0000027f
+DEBUG  | wrapperp | 2019/12/26 10:28:35 | read a packet PING : ping 0000027f
+DEBUG  | wrapperp | 2019/12/26 10:28:40 | Send a packet PING : ping 000002b1
+INFO   | jvm 1    | 2019/12/26 10:28:40 | WrapperManager Debug: Received a packet PING : ping 000002b1
+INFO   | jvm 1    | 2019/12/26 10:28:40 | WrapperManager Debug: Send a packet PING : ping 000002b1
+DEBUG  | wrapperp | 2019/12/26 10:28:40 | read a packet PING : ping 000002b1
+DEBUG  | wrapperp | 2019/12/26 10:28:45 | Send a packet PING : ping 000002e3
+INFO   | jvm 1    | 2019/12/26 10:28:45 | WrapperManager Debug: Received a packet PING : ping 000002e3
+INFO   | jvm 1    | 2019/12/26 10:28:45 | WrapperManager Debug: Send a packet PING : ping 000002e3
+DEBUG  | wrapperp | 2019/12/26 10:28:45 | read a packet PING : ping 000002e3
+DEBUG  | wrapperp | 2019/12/26 10:28:50 | Send a packet PING : ping 00000315
+INFO   | jvm 1    | 2019/12/26 10:28:51 | WrapperManager Debug: Received a packet PING : ping 00000315
+INFO   | jvm 1    | 2019/12/26 10:28:51 | WrapperManager Debug: Send a packet PING : ping 00000315
+DEBUG  | wrapperp | 2019/12/26 10:28:51 | read a packet PING : ping 00000315
+DEBUG  | wrapperp | 2019/12/26 10:28:56 | Send a packet PING : ping 00000347
+INFO   | jvm 1    | 2019/12/26 10:28:56 | WrapperManager Debug: Received a packet PING : ping 00000347
+INFO   | jvm 1    | 2019/12/26 10:28:56 | WrapperManager Debug: Send a packet PING : ping 00000347
+DEBUG  | wrapperp | 2019/12/26 10:28:56 | read a packet PING : ping 00000347
+DEBUG  | wrapperp | 2019/12/26 10:29:01 | Send a packet PING : ping 00000379
+INFO   | jvm 1    | 2019/12/26 10:29:01 | WrapperManager Debug: Received a packet PING : ping 00000379
+INFO   | jvm 1    | 2019/12/26 10:29:01 | WrapperManager Debug: Send a packet PING : ping 00000379
+DEBUG  | wrapperp | 2019/12/26 10:29:01 | read a packet PING : ping 00000379
+DEBUG  | wrapperp | 2019/12/26 10:29:06 | Send a packet PING : ping 000003ab
+INFO   | jvm 1    | 2019/12/26 10:29:06 | WrapperManager Debug: Received a packet PING : ping 000003ab
+INFO   | jvm 1    | 2019/12/26 10:29:06 | WrapperManager Debug: Send a packet PING : ping 000003ab
+DEBUG  | wrapperp | 2019/12/26 10:29:06 | read a packet PING : ping 000003ab
+DEBUG  | wrapperp | 2019/12/26 10:29:11 | Send a packet PING : ping 000003dd
+INFO   | jvm 1    | 2019/12/26 10:29:11 | WrapperManager Debug: Received a packet PING : ping 000003dd
+INFO   | jvm 1    | 2019/12/26 10:29:11 | WrapperManager Debug: Send a packet PING : ping 000003dd
+DEBUG  | wrapperp | 2019/12/26 10:29:11 | read a packet PING : ping 000003dd
+DEBUG  | wrapperp | 2019/12/26 10:29:16 | Send a packet PING : ping 0000040f
+INFO   | jvm 1    | 2019/12/26 10:29:16 | WrapperManager Debug: Received a packet PING : ping 0000040f
+INFO   | jvm 1    | 2019/12/26 10:29:16 | WrapperManager Debug: Send a packet PING : ping 0000040f
+DEBUG  | wrapperp | 2019/12/26 10:29:16 | read a packet PING : ping 0000040f
+INFO   | jvm 1    | 2019/12/26 10:29:19 | Path has changed: huongdan1.txt
+INFO   | jvm 1    | 2019/12/26 10:29:19 | Here is the standard output of the command:
+INFO   | jvm 1    | 2019/12/26 10:29:19 | 
+DEBUG  | wrapperp | 2019/12/26 10:29:21 | Send a packet PING : ping 00000441
+INFO   | jvm 1    | 2019/12/26 10:29:21 | WrapperManager Debug: Received a packet PING : ping 00000441
+INFO   | jvm 1    | 2019/12/26 10:29:21 | WrapperManager Debug: Send a packet PING : ping 00000441
+INFO   | jvm 1    | 2019/12/26 10:29:21 | building file list ... done
+DEBUG  | wrapperp | 2019/12/26 10:29:21 | read a packet PING : ping 00000441
+INFO   | jvm 1    | 2019/12/26 10:29:24 | 
+INFO   | jvm 1    | 2019/12/26 10:29:24 | sent 115 bytes  received 20 bytes  30.00 bytes/sec
+INFO   | jvm 1    | 2019/12/26 10:29:24 | total size is 12202962  speedup is 90392.31
+INFO   | jvm 1    | 2019/12/26 10:29:24 | Here is the standard error of the command (if any):
+INFO   | jvm 1    | 2019/12/26 10:29:24 | 
+INFO   | jvm 1    | 2019/12/26 10:29:24 | /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+DEBUG  | wrapperp | 2019/12/26 10:29:26 | Send a packet PING : ping 00000473
+INFO   | jvm 1    | 2019/12/26 10:29:26 | WrapperManager Debug: Received a packet PING : ping 00000473
+INFO   | jvm 1    | 2019/12/26 10:29:26 | WrapperManager Debug: Send a packet PING : ping 00000473
+DEBUG  | wrapperp | 2019/12/26 10:29:26 | read a packet PING : ping 00000473
+DEBUG  | wrapperp | 2019/12/26 10:29:31 | Send a packet PING : ping 000004a5
+INFO   | jvm 1    | 2019/12/26 10:29:31 | WrapperManager Debug: Received a packet PING : ping 000004a5
+INFO   | jvm 1    | 2019/12/26 10:29:31 | WrapperManager Debug: Send a packet PING : ping 000004a5
+DEBUG  | wrapperp | 2019/12/26 10:29:31 | read a packet PING : ping 000004a5
+DEBUG  | wrapperp | 2019/12/26 10:29:36 | Send a packet PING : ping 000004d7
+INFO   | jvm 1    | 2019/12/26 10:29:36 | WrapperManager Debug: Received a packet PING : ping 000004d7
+INFO   | jvm 1    | 2019/12/26 10:29:36 | WrapperManager Debug: Send a packet PING : ping 000004d7
+DEBUG  | wrapperp | 2019/12/26 10:29:36 | read a packet PING : ping 000004d7
+DEBUG  | wrapperp | 2019/12/26 10:29:41 | Send a packet PING : ping 00000509
+INFO   | jvm 1    | 2019/12/26 10:29:42 | WrapperManager Debug: Received a packet PING : ping 00000509
+INFO   | jvm 1    | 2019/12/26 10:29:42 | WrapperManager Debug: Send a packet PING : ping 00000509
+DEBUG  | wrapperp | 2019/12/26 10:29:42 | read a packet PING : ping 00000509
+DEBUG  | wrapperp | 2019/12/26 10:29:47 | Send a packet PING : ping 0000053b
+INFO   | jvm 1    | 2019/12/26 10:29:47 | WrapperManager Debug: Received a packet PING : ping 0000053b
+INFO   | jvm 1    | 2019/12/26 10:29:47 | WrapperManager Debug: Send a packet PING : ping 0000053b
+DEBUG  | wrapperp | 2019/12/26 10:29:47 | read a packet PING : ping 0000053b
+DEBUG  | wrapperp | 2019/12/26 10:29:52 | Send a packet PING : ping 0000056d
+INFO   | jvm 1    | 2019/12/26 10:29:52 | WrapperManager Debug: Received a packet PING : ping 0000056d
+INFO   | jvm 1    | 2019/12/26 10:29:52 | WrapperManager Debug: Send a packet PING : ping 0000056d
+DEBUG  | wrapperp | 2019/12/26 10:29:52 | read a packet PING : ping 0000056d
+DEBUG  | wrapperp | 2019/12/26 10:29:57 | Send a packet PING : ping 0000059f
+INFO   | jvm 1    | 2019/12/26 10:29:57 | WrapperManager Debug: Received a packet PING : ping 0000059f
+INFO   | jvm 1    | 2019/12/26 10:29:57 | WrapperManager Debug: Send a packet PING : ping 0000059f
+DEBUG  | wrapperp | 2019/12/26 10:29:57 | read a packet PING : ping 0000059f
+DEBUG  | wrapperp | 2019/12/26 10:30:02 | Send a packet PING : ping 000005d1
+INFO   | jvm 1    | 2019/12/26 10:30:02 | WrapperManager Debug: Received a packet PING : ping 000005d1
+INFO   | jvm 1    | 2019/12/26 10:30:02 | WrapperManager Debug: Send a packet PING : ping 000005d1
+DEBUG  | wrapperp | 2019/12/26 10:30:02 | read a packet PING : ping 000005d1
+DEBUG  | wrapperp | 2019/12/26 10:30:07 | Send a packet PING : ping 00000603
+INFO   | jvm 1    | 2019/12/26 10:30:07 | WrapperManager Debug: Received a packet PING : ping 00000603
+INFO   | jvm 1    | 2019/12/26 10:30:07 | WrapperManager Debug: Send a packet PING : ping 00000603
+DEBUG  | wrapperp | 2019/12/26 10:30:07 | read a packet PING : ping 00000603
+DEBUG  | wrapperp | 2019/12/26 10:30:12 | Send a packet PING : ping 00000635
+INFO   | jvm 1    | 2019/12/26 10:30:12 | WrapperManager Debug: Received a packet PING : ping 00000635
+INFO   | jvm 1    | 2019/12/26 10:30:12 | WrapperManager Debug: Send a packet PING : ping 00000635
+DEBUG  | wrapperp | 2019/12/26 10:30:12 | read a packet PING : ping 00000635
+DEBUG  | wrapperp | 2019/12/26 10:30:17 | Send a packet PING : ping 00000667
+INFO   | jvm 1    | 2019/12/26 10:30:17 | WrapperManager Debug: Received a packet PING : ping 00000667
+INFO   | jvm 1    | 2019/12/26 10:30:17 | WrapperManager Debug: Send a packet PING : ping 00000667
+DEBUG  | wrapperp | 2019/12/26 10:30:17 | read a packet PING : ping 00000667
+DEBUG  | wrapperp | 2019/12/26 10:30:22 | Send a packet PING : ping 00000699
+INFO   | jvm 1    | 2019/12/26 10:30:22 | WrapperManager Debug: Received a packet PING : ping 00000699
+INFO   | jvm 1    | 2019/12/26 10:30:22 | WrapperManager Debug: Send a packet PING : ping 00000699
+DEBUG  | wrapperp | 2019/12/26 10:30:22 | read a packet PING : ping 00000699
+DEBUG  | wrapperp | 2019/12/26 10:30:27 | Send a packet PING : ping 000006cb
+INFO   | jvm 1    | 2019/12/26 10:30:28 | WrapperManager Debug: Received a packet PING : ping 000006cb
+INFO   | jvm 1    | 2019/12/26 10:30:28 | WrapperManager Debug: Send a packet PING : ping 000006cb
+DEBUG  | wrapperp | 2019/12/26 10:30:28 | read a packet PING : ping 000006cb
+DEBUG  | wrapperp | 2019/12/26 10:30:33 | Send a packet PING : ping 000006fd
+INFO   | jvm 1    | 2019/12/26 10:30:33 | WrapperManager Debug: Received a packet PING : ping 000006fd
+INFO   | jvm 1    | 2019/12/26 10:30:33 | WrapperManager Debug: Send a packet PING : ping 000006fd
+DEBUG  | wrapperp | 2019/12/26 10:30:33 | read a packet PING : ping 000006fd
+DEBUG  | wrapperp | 2019/12/26 10:30:38 | Send a packet PING : ping 0000072f
+INFO   | jvm 1    | 2019/12/26 10:30:38 | WrapperManager Debug: Received a packet PING : ping 0000072f
+INFO   | jvm 1    | 2019/12/26 10:30:38 | WrapperManager Debug: Send a packet PING : ping 0000072f
+DEBUG  | wrapperp | 2019/12/26 10:30:38 | read a packet PING : ping 0000072f
+DEBUG  | wrapperp | 2019/12/26 10:30:43 | Send a packet PING : ping 00000761
+INFO   | jvm 1    | 2019/12/26 10:30:43 | WrapperManager Debug: Received a packet PING : ping 00000761
+INFO   | jvm 1    | 2019/12/26 10:30:43 | WrapperManager Debug: Send a packet PING : ping 00000761
+DEBUG  | wrapperp | 2019/12/26 10:30:43 | read a packet PING : ping 00000761
+DEBUG  | wrapperp | 2019/12/26 10:30:48 | Send a packet PING : ping 00000793
+INFO   | jvm 1    | 2019/12/26 10:30:48 | WrapperManager Debug: Received a packet PING : ping 00000793
+INFO   | jvm 1    | 2019/12/26 10:30:48 | WrapperManager Debug: Send a packet PING : ping 00000793
+DEBUG  | wrapperp | 2019/12/26 10:30:48 | read a packet PING : ping 00000793
+DEBUG  | wrapperp | 2019/12/26 10:30:53 | Send a packet PING : ping 000007c5
+INFO   | jvm 1    | 2019/12/26 10:30:53 | WrapperManager Debug: Received a packet PING : ping 000007c5
+INFO   | jvm 1    | 2019/12/26 10:30:53 | WrapperManager Debug: Send a packet PING : ping 000007c5
+DEBUG  | wrapperp | 2019/12/26 10:30:53 | read a packet PING : ping 000007c5
+DEBUG  | wrapperp | 2019/12/26 10:30:58 | Send a packet PING : ping 000007f7
+INFO   | jvm 1    | 2019/12/26 10:30:58 | WrapperManager Debug: Received a packet PING : ping 000007f7
+INFO   | jvm 1    | 2019/12/26 10:30:58 | WrapperManager Debug: Send a packet PING : ping 000007f7
+DEBUG  | wrapperp | 2019/12/26 10:30:58 | read a packet PING : ping 000007f7
+INFO   | jvm 1    | 2019/12/26 10:30:59 | Path has changed: .DS_Store
+INFO   | jvm 1    | 2019/12/26 10:30:59 | Here is the standard output of the command:
+INFO   | jvm 1    | 2019/12/26 10:30:59 | 
+INFO   | jvm 1    | 2019/12/26 10:31:02 | building file list ... done
+DEBUG  | wrapperp | 2019/12/26 10:31:03 | Send a packet PING : ping 00000829
+INFO   | jvm 1    | 2019/12/26 10:31:03 | WrapperManager Debug: Received a packet PING : ping 00000829
+INFO   | jvm 1    | 2019/12/26 10:31:03 | WrapperManager Debug: Send a packet PING : ping 00000829
+DEBUG  | wrapperp | 2019/12/26 10:31:03 | read a packet PING : ping 00000829
+INFO   | jvm 1    | 2019/12/26 10:31:04 | 
+INFO   | jvm 1    | 2019/12/26 10:31:04 | sent 115 bytes  received 20 bytes  30.00 bytes/sec
+INFO   | jvm 1    | 2019/12/26 10:31:04 | total size is 12202962  speedup is 90392.31
+INFO   | jvm 1    | 2019/12/26 10:31:04 | Here is the standard error of the command (if any):
+INFO   | jvm 1    | 2019/12/26 10:31:04 | 
+INFO   | jvm 1    | 2019/12/26 10:31:04 | /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+DEBUG  | wrapperp | 2019/12/26 10:31:08 | Send a packet PING : ping 0000085b
+INFO   | jvm 1    | 2019/12/26 10:31:08 | WrapperManager Debug: Received a packet PING : ping 0000085b
+INFO   | jvm 1    | 2019/12/26 10:31:08 | WrapperManager Debug: Send a packet PING : ping 0000085b
+DEBUG  | wrapperp | 2019/12/26 10:31:08 | read a packet PING : ping 0000085b
+DEBUG  | wrapperp | 2019/12/26 10:31:14 | Send a packet PING : ping 0000088d
+INFO   | jvm 1    | 2019/12/26 10:31:14 | WrapperManager Debug: Received a packet PING : ping 0000088d
+INFO   | jvm 1    | 2019/12/26 10:31:14 | WrapperManager Debug: Send a packet PING : ping 0000088d
+DEBUG  | wrapperp | 2019/12/26 10:31:14 | read a packet PING : ping 0000088d
+DEBUG  | wrapperp | 2019/12/26 10:31:19 | Send a packet PING : ping 000008bf
+INFO   | jvm 1    | 2019/12/26 10:31:19 | WrapperManager Debug: Received a packet PING : ping 000008bf
+INFO   | jvm 1    | 2019/12/26 10:31:19 | WrapperManager Debug: Send a packet PING : ping 000008bf
+DEBUG  | wrapperp | 2019/12/26 10:31:19 | read a packet PING : ping 000008bf
+DEBUG  | wrapperp | 2019/12/26 10:31:24 | Send a packet PING : ping 000008f1
+INFO   | jvm 1    | 2019/12/26 10:31:24 | WrapperManager Debug: Received a packet PING : ping 000008f1
+INFO   | jvm 1    | 2019/12/26 10:31:24 | WrapperManager Debug: Send a packet PING : ping 000008f1
+DEBUG  | wrapperp | 2019/12/26 10:31:24 | read a packet PING : ping 000008f1
+DEBUG  | wrapperp | 2019/12/26 10:31:29 | Send a packet PING : ping 00000923
+INFO   | jvm 1    | 2019/12/26 10:31:29 | WrapperManager Debug: Received a packet PING : ping 00000923
+INFO   | jvm 1    | 2019/12/26 10:31:29 | WrapperManager Debug: Send a packet PING : ping 00000923
+DEBUG  | wrapperp | 2019/12/26 10:31:29 | read a packet PING : ping 00000923
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:31:34 |   signal number=15 (SIGTERM), source="unknown"
+STATUS | wrapper  | 2019/12/26 10:31:34 | TERM trapped.  Shutting down.
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | wrapperStopProcess(0, TRUE) called.
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2019/12/26 10:31:34 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: calling listener.stop()
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Waiting for WrapperListener.stop runner thread to complete.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: WrapperListener.stop runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Application stop main thread: WrapperListener_stop_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperSimpleApp Debug: stop(0)
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: WrapperListener.stop runner thread stopped.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: returned from listener.stop() -> 0
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: shutdownJVM(0) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Send a packet STOPPED : 0
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Stopped checking for control events.
+DEBUG  | wrapperp | 2019/12/26 10:31:34 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:31:34 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | JVM process exited with a code of 0, leaving the Wrapper exit code set to 0.
+DEBUG  | wrapper  | 2019/12/26 10:31:34 | JVM exited normally.
+DEBUG  | wrapperp | 2019/12/26 10:31:34 | Closing backend socket.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperJNI Debug: Disposing WrapperManager native library.
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: calling System.exit(0)
+INFO   | jvm 1    | 2019/12/26 10:31:34 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2019/12/26 10:31:34 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2019/12/26 10:43:03 | The "wrapper.name" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Ignoring redefinition on line #200 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Fixed Value wrapper.name=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Ignored Value wrapper.name=testwrapper
+DEBUG  | wrapper  | 2019/12/26 10:43:03 | The "wrapper.displayname" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Ignoring redefinition on line #203 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Fixed Value wrapper.displayname=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:43:03 |   Ignored Value wrapper.displayname=Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:43:03 | Spawning intermediate process...
+DEBUG  | wrapper  | 2019/12/26 10:43:03 | Spawning daemon process...
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Reloading configuration.
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Configured log file set to '/Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log'.
+STATUS | wrapper  | 2019/12/26 10:43:04 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2019/12/26 10:43:04 | Java Service Wrapper Community Edition 64-bit 3.5.41
+STATUS | wrapper  | 2019/12/26 10:43:04 |   Copyright (C) 1999-2019 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2019/12/26 10:43:04 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2019/12/26 10:43:04 | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Release time: 2019/10/31 00:00:00
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Build time:   2019/10/30 18:43:00
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Timezone:     +07 (   ) Offset: -25200, hasDaylight: 0
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Using tick timer.
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | PID:          16929
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Wrapper configuration properties BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.app.parameter.1                              | com.run.RunUpp
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.check.deadlock                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.check.deadlock.action                        | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.check.deadlock.interval                      | 10
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.check.deadlock.output                        | FULL
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.console.format                               | PM
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.console.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.console.title                                | Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.daemonize                                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.debug                                        | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.description                                  | Test Wrapper Sample Application Description
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.displayname                                  | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.event.jvm_restart.email.body                 | The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.action.1000                           | NONE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.action.1001                           | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.action.999                            | NONE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.allow_wildcards.999                   | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.message.1001                          | The JVM has run out of memory.
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.trigger.1000                          | [Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.trigger.1001                          | java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.filter.trigger.999                           | wrapper.filter.trigger.*java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.ignore_sequence_gaps                         | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.additional.auto_bits                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.classpath.1                             | ../code/Until.jar
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.classpath.2                             | ../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.command                                 | java
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.library.path.1                          | ../lib
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.java.mainclass                               | org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.java.statusfile                              | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.java.status
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.lang.folder                                  | ../lang
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.logfile                                      | ../logs/wrapper.log
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.logfile.format                               | LPTM
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.logfile.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.logfile.maxfiles                             | 0
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.logfile.maxsize                              | 0
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.name                                         | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.ntservice.dependency.1                       | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.ntservice.interactive                        | FALSE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.ntservice.starttype                          | AUTO_START
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.pidfile                                      | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.pid
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.pidfile.strict                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit       | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit.delay | 20
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.script.version                               | 3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.statusfile                                   | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.status
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   C | F | wrapper.syslog.ident                                 | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   F |   | wrapper.syslog.loglevel                              | NONE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Wrapper configuration properties END:
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | _=/Users/nguyenvanhuu/Downloads/java-rsync-mac/./bin/wrapper
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.OdZybyc1zC/Render
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | HOME=/Users/nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | LOGNAME=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | PATH=/usr/bin:/bin:/usr/sbin:/sbin
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | PWD=/
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ViYBqKCMnL/Listeners
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | TMPDIR=/var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T/
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | USER=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_ARCH=universal
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_BASE_NAME=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_BIN_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_CONF_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/conf
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_EDITION=Community
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_HOST_NAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_HOSTNAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P--W- | WRAPPER_INIT_DIR=/
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_OS=macosx
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_PID=16929
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_RUN_MODE=service
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_VERSION=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   ---W- | WRAPPER_WORKING_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | XPC_FLAGS=0x0
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   P---- | XPC_SERVICE_NAME=0
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Environment variables END:
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | 
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Number of open file descriptors limits: 256 (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Data segment size limits: unlimited (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2019/12/26 10:43:04 | server listening on port 32000.
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Resolved the real path of wrapper.java.command from system PATH: /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Magic number for file /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java: 0xcafebabe
+DEBUG  | wrapper  | 2019/12/26 10:43:04 | Java Command Line (Query Java Version):
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   Command[0] : /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:43:04 |   Command[1] : -version
+DEBUG  | jvm ver. | 2019/12/26 10:43:05 | java version "1.8.0_111"
+DEBUG  | jvm ver. | 2019/12/26 10:43:05 | Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+DEBUG  | jvm ver. | 2019/12/26 10:43:05 | Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Java version parsed to: 8.0.111
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Java vendor parsed to: Oracle
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Java bits parsed to: 64-Bit
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Reading the JVM output using the encoding of the current locale (US-ASCII).
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Resolved the real path of wrapper.java.command from system PATH: /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Magic number for file /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java: 0xcafebabe
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2019/12/26 10:43:05 | Launching a JVM...
+DEBUG  | wrapper  | 2019/12/26 10:43:05 | Java Command Line:
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[0] : /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[1] : -d64
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[2] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[3] : -classpath
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[4] : ../code/Until.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[5] : -Dwrapper.key=N2SQ2-qYH23OQNbY
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[6] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[7] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[8] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[9] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[10] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[11] : -Dwrapper.pid=16929
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[12] : -Dwrapper.version=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[13] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[14] : -Dwrapper.arch=universal
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[15] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[16] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[17] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[18] : org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:43:05 |   Command[19] : com.run.RunUpp
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@6bc7c054
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug:   Implementation Version: 3.5.41
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2019/12/26 10:43:05 | WrapperManager Debug:   Location: file:/Users/nguyenvanhuu/Downloads/java-rsync-mac/lib/wrapper.jar
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug:     Size: 127,029
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug:     MD5: 51eb9ad242329a1d9ebba0c52fefd849
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Using the Wrapper
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-macosx-universal-64.dylib  Result: no wrapper-macosx-universal-64 in java.library.path
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.dylib  Result: Success!
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Java PID       : 16937
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Java Version   : 1.8.0_111-b14 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: OS Name        : Mac OS X
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: OS Arch        : x86_64
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: 
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperSimpleApp, args[]) called by thread: main
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Open socket to Wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Opened Socket from 31,000 to 32,000
+INFO   | jvm 1    | 2019/12/26 10:43:06 | WrapperManager Debug: Send a packet KEY : N2SQ2-qYH23OQNbY
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | closing backend server.
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | read a packet KEY : N2SQ2-qYH23OQNbY
+DEBUG  | wrapper  | 2019/12/26 10:43:06 | Got key from JVM: N2SQ2-qYH23OQNbY
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | Send a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | Send a packet PROPERTIES : (Property Values, Size=7794)
+DEBUG  | wrapper  | 2019/12/26 10:43:06 | Start Application.
+DEBUG  | wrapperp | 2019/12/26 10:43:06 | Send a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: handleBackend()
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Received a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=7794)
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Java temporary directory: /var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperSimpleApp Debug: start(args) Will wait up to 2 seconds for the main method to complete.
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperSimpleApp Debug: invoking main method
+INFO   | jvm 1    | 2019/12/26 10:43:07 | /Users/nguyenvanhuu/Downloads/DongboFile_Macos
+INFO   | jvm 1    | 2019/12/26 10:43:07 | WrapperManager Debug: Send a packet START_PENDING : 5000
+DEBUG  | wrapperp | 2019/12/26 10:43:07 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:43:07 | JVM signaled a start pending with waitHint of 5000 millis.
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperManager Debug: Send a packet START_PENDING : 5000
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperSimpleApp Debug: start(args) end.  Main Completed=false, exitCode=null
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperManager Debug: Send a packet STARTED : 
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperManager Debug: WrapperListener.start runner thread stopped.
+DEBUG  | wrapperp | 2019/12/26 10:43:09 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:43:09 | JVM signaled a start pending with waitHint of 5000 millis.
+DEBUG  | wrapperp | 2019/12/26 10:43:09 | read a packet STARTED : 
+DEBUG  | wrapper  | 2019/12/26 10:43:09 | JVM signaled that it was started.
+INFO   | jvm 1    | 2019/12/26 10:43:09 | WrapperManager Debug: Startup runner thread stopped.
+DEBUG  | wrapperp | 2019/12/26 10:43:11 | Send a packet PING : ping fffffe32
+INFO   | jvm 1    | 2019/12/26 10:43:11 | WrapperManager Debug: Received a packet PING : ping fffffe32
+INFO   | jvm 1    | 2019/12/26 10:43:11 | WrapperManager Debug: Send a packet PING : ping fffffe32
+DEBUG  | wrapperp | 2019/12/26 10:43:11 | read a packet PING : ping fffffe32
+DEBUG  | wrapperp | 2019/12/26 10:43:18 | Send a packet PING : ping fffffe64
+INFO   | jvm 1    | 2019/12/26 10:43:19 | WrapperManager Debug: Received a packet PING : ping fffffe64
+INFO   | jvm 1    | 2019/12/26 10:43:19 | WrapperManager Debug: Send a packet PING : ping fffffe64
+DEBUG  | wrapperp | 2019/12/26 10:43:19 | read a packet PING : ping fffffe64
+DEBUG  | wrapperp | 2019/12/26 10:43:26 | Send a packet PING : ping fffffe96
+INFO   | jvm 1    | 2019/12/26 10:43:26 | WrapperManager Debug: Received a packet PING : ping fffffe96
+INFO   | jvm 1    | 2019/12/26 10:43:26 | WrapperManager Debug: Send a packet PING : ping fffffe96
+DEBUG  | wrapperp | 2019/12/26 10:43:26 | read a packet PING : ping fffffe96
+DEBUG  | wrapperp | 2019/12/26 10:43:34 | Send a packet PING : ping fffffec8
+INFO   | jvm 1    | 2019/12/26 10:43:34 | WrapperManager Debug: Received a packet PING : ping fffffec8
+INFO   | jvm 1    | 2019/12/26 10:43:34 | WrapperManager Debug: Send a packet PING : ping fffffec8
+DEBUG  | wrapperp | 2019/12/26 10:43:34 | read a packet PING : ping fffffec8
+DEBUG  | wrapperp | 2019/12/26 10:43:41 | Send a packet PING : ping fffffefa
+INFO   | jvm 1    | 2019/12/26 10:43:41 | WrapperManager Debug: Received a packet PING : ping fffffefa
+INFO   | jvm 1    | 2019/12/26 10:43:41 | WrapperManager Debug: Send a packet PING : ping fffffefa
+DEBUG  | wrapperp | 2019/12/26 10:43:41 | read a packet PING : ping fffffefa
+DEBUG  | wrapperp | 2019/12/26 10:43:48 | Send a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2019/12/26 10:43:48 | WrapperManager Debug: Received a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2019/12/26 10:43:48 | WrapperManager Debug: Send a packet PING : ping ffffff2d
+DEBUG  | wrapperp | 2019/12/26 10:43:48 | read a packet PING : ping ffffff2d
+DEBUG  | wrapperp | 2019/12/26 10:43:55 | Send a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2019/12/26 10:43:56 | WrapperManager Debug: Received a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2019/12/26 10:43:56 | WrapperManager Debug: Send a packet PING : ping ffffff5f
+DEBUG  | wrapperp | 2019/12/26 10:43:56 | read a packet PING : ping ffffff5f
+DEBUG  | wrapperp | 2019/12/26 10:44:03 | Send a packet PING : ping ffffff91
+INFO   | jvm 1    | 2019/12/26 10:44:03 | WrapperManager Debug: Received a packet PING : ping ffffff91
+INFO   | jvm 1    | 2019/12/26 10:44:03 | WrapperManager Debug: Send a packet PING : ping ffffff91
+DEBUG  | wrapperp | 2019/12/26 10:44:03 | read a packet PING : ping ffffff91
+DEBUG  | wrapperp | 2019/12/26 10:44:11 | Send a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2019/12/26 10:44:11 | WrapperManager Debug: Received a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2019/12/26 10:44:11 | WrapperManager Debug: Send a packet PING : ping ffffffc3
+DEBUG  | wrapperp | 2019/12/26 10:44:11 | read a packet PING : ping ffffffc3
+DEBUG  | wrapperp | 2019/12/26 10:44:18 | Send a packet PING : ping fffffff5
+INFO   | jvm 1    | 2019/12/26 10:44:18 | WrapperManager Debug: Received a packet PING : ping fffffff5
+INFO   | jvm 1    | 2019/12/26 10:44:18 | WrapperManager Debug: Send a packet PING : ping fffffff5
+DEBUG  | wrapperp | 2019/12/26 10:44:18 | read a packet PING : ping fffffff5
+DEBUG  | wrapperp | 2019/12/26 10:44:25 | Send a packet PING : ping 00000027
+INFO   | jvm 1    | 2019/12/26 10:44:25 | WrapperManager Debug: Received a packet PING : ping 00000027
+INFO   | jvm 1    | 2019/12/26 10:44:25 | WrapperManager Debug: Send a packet PING : ping 00000027
+DEBUG  | wrapperp | 2019/12/26 10:44:25 | read a packet PING : ping 00000027
+DEBUG  | wrapperp | 2019/12/26 10:44:32 | Send a packet PING : ping 00000059
+INFO   | jvm 1    | 2019/12/26 10:44:33 | WrapperManager Debug: Received a packet PING : ping 00000059
+INFO   | jvm 1    | 2019/12/26 10:44:33 | WrapperManager Debug: Send a packet PING : ping 00000059
+DEBUG  | wrapperp | 2019/12/26 10:44:33 | read a packet PING : ping 00000059
+DEBUG  | wrapperp | 2019/12/26 10:44:39 | Send a packet PING : ping 0000008b
+INFO   | jvm 1    | 2019/12/26 10:44:40 | WrapperManager Debug: Received a packet PING : ping 0000008b
+INFO   | jvm 1    | 2019/12/26 10:44:40 | WrapperManager Debug: Send a packet PING : ping 0000008b
+DEBUG  | wrapperp | 2019/12/26 10:44:40 | read a packet PING : ping 0000008b
+DEBUG  | wrapperp | 2019/12/26 10:44:47 | Send a packet PING : ping 000000bd
+INFO   | jvm 1    | 2019/12/26 10:44:47 | WrapperManager Debug: Received a packet PING : ping 000000bd
+INFO   | jvm 1    | 2019/12/26 10:44:47 | WrapperManager Debug: Send a packet PING : ping 000000bd
+DEBUG  | wrapperp | 2019/12/26 10:44:47 | read a packet PING : ping 000000bd
+DEBUG  | wrapperp | 2019/12/26 10:44:55 | Send a packet PING : ping 000000ef
+INFO   | jvm 1    | 2019/12/26 10:44:55 | WrapperManager Debug: Received a packet PING : ping 000000ef
+INFO   | jvm 1    | 2019/12/26 10:44:55 | WrapperManager Debug: Send a packet PING : ping 000000ef
+DEBUG  | wrapperp | 2019/12/26 10:44:55 | read a packet PING : ping 000000ef
+DEBUG  | wrapperp | 2019/12/26 10:45:02 | Send a packet PING : ping 00000121
+INFO   | jvm 1    | 2019/12/26 10:45:02 | WrapperManager Debug: Received a packet PING : ping 00000121
+INFO   | jvm 1    | 2019/12/26 10:45:02 | WrapperManager Debug: Send a packet PING : ping 00000121
+DEBUG  | wrapperp | 2019/12/26 10:45:02 | read a packet PING : ping 00000121
+DEBUG  | wrapperp | 2019/12/26 10:45:09 | Send a packet PING : ping 00000154
+INFO   | jvm 1    | 2019/12/26 10:45:10 | WrapperManager Debug: Received a packet PING : ping 00000154
+INFO   | jvm 1    | 2019/12/26 10:45:10 | WrapperManager Debug: Send a packet PING : ping 00000154
+DEBUG  | wrapperp | 2019/12/26 10:45:10 | read a packet PING : ping 00000154
+DEBUG  | wrapperp | 2019/12/26 10:45:17 | Send a packet PING : ping 00000186
+INFO   | jvm 1    | 2019/12/26 10:45:17 | WrapperManager Debug: Received a packet PING : ping 00000186
+INFO   | jvm 1    | 2019/12/26 10:45:17 | WrapperManager Debug: Send a packet PING : ping 00000186
+DEBUG  | wrapperp | 2019/12/26 10:45:17 | read a packet PING : ping 00000186
+DEBUG  | wrapperp | 2019/12/26 10:45:24 | Send a packet PING : ping 000001b8
+INFO   | jvm 1    | 2019/12/26 10:45:24 | WrapperManager Debug: Received a packet PING : ping 000001b8
+INFO   | jvm 1    | 2019/12/26 10:45:24 | WrapperManager Debug: Send a packet PING : ping 000001b8
+DEBUG  | wrapperp | 2019/12/26 10:45:24 | read a packet PING : ping 000001b8
+DEBUG  | wrapperp | 2019/12/26 10:45:31 | Send a packet PING : ping 000001ea
+INFO   | jvm 1    | 2019/12/26 10:45:32 | WrapperManager Debug: Received a packet PING : ping 000001ea
+INFO   | jvm 1    | 2019/12/26 10:45:32 | WrapperManager Debug: Send a packet PING : ping 000001ea
+DEBUG  | wrapperp | 2019/12/26 10:45:32 | read a packet PING : ping 000001ea
+DEBUG  | wrapperp | 2019/12/26 10:45:42 | Send a packet PING : ping 0000021c
+INFO   | jvm 1    | 2019/12/26 10:45:42 | WrapperManager Debug: Received a packet PING : ping 0000021c
+INFO   | jvm 1    | 2019/12/26 10:45:42 | WrapperManager Debug: Send a packet PING : ping 0000021c
+DEBUG  | wrapperp | 2019/12/26 10:45:42 | read a packet PING : ping 0000021c
+DEBUG  | wrapperp | 2019/12/26 10:45:49 | Send a packet PING : ping 0000024e
+INFO   | jvm 1    | 2019/12/26 10:45:49 | WrapperManager Debug: Received a packet PING : ping 0000024e
+INFO   | jvm 1    | 2019/12/26 10:45:49 | WrapperManager Debug: Send a packet PING : ping 0000024e
+DEBUG  | wrapperp | 2019/12/26 10:45:49 | read a packet PING : ping 0000024e
+DEBUG  | wrapperp | 2019/12/26 10:45:56 | Send a packet PING : ping 00000281
+INFO   | jvm 1    | 2019/12/26 10:45:56 | WrapperManager Debug: Received a packet PING : ping 00000281
+INFO   | jvm 1    | 2019/12/26 10:45:56 | WrapperManager Debug: Send a packet PING : ping 00000281
+DEBUG  | wrapperp | 2019/12/26 10:45:56 | read a packet PING : ping 00000281
+DEBUG  | wrapperp | 2019/12/26 10:46:03 | Send a packet PING : ping 000002b3
+INFO   | jvm 1    | 2019/12/26 10:46:03 | WrapperManager Debug: Received a packet PING : ping 000002b3
+INFO   | jvm 1    | 2019/12/26 10:46:03 | WrapperManager Debug: Send a packet PING : ping 000002b3
+DEBUG  | wrapperp | 2019/12/26 10:46:03 | read a packet PING : ping 000002b3
+DEBUG  | wrapperp | 2019/12/26 10:46:10 | Send a packet PING : ping 000002e5
+INFO   | jvm 1    | 2019/12/26 10:46:10 | WrapperManager Debug: Received a packet PING : ping 000002e5
+INFO   | jvm 1    | 2019/12/26 10:46:10 | WrapperManager Debug: Send a packet PING : ping 000002e5
+DEBUG  | wrapperp | 2019/12/26 10:46:10 | read a packet PING : ping 000002e5
+DEBUG  | wrapperp | 2019/12/26 10:46:16 | Send a packet PING : ping 00000317
+INFO   | jvm 1    | 2019/12/26 10:46:17 | WrapperManager Debug: Received a packet PING : ping 00000317
+INFO   | jvm 1    | 2019/12/26 10:46:17 | WrapperManager Debug: Send a packet PING : ping 00000317
+DEBUG  | wrapperp | 2019/12/26 10:46:17 | read a packet PING : ping 00000317
+DEBUG  | wrapperp | 2019/12/26 10:46:23 | Send a packet PING : ping 00000349
+INFO   | jvm 1    | 2019/12/26 10:46:23 | WrapperManager Debug: Received a packet PING : ping 00000349
+INFO   | jvm 1    | 2019/12/26 10:46:23 | WrapperManager Debug: Send a packet PING : ping 00000349
+DEBUG  | wrapperp | 2019/12/26 10:46:23 | read a packet PING : ping 00000349
+DEBUG  | wrapperp | 2019/12/26 10:46:30 | Send a packet PING : ping 0000037b
+INFO   | jvm 1    | 2019/12/26 10:46:30 | WrapperManager Debug: Received a packet PING : ping 0000037b
+INFO   | jvm 1    | 2019/12/26 10:46:30 | WrapperManager Debug: Send a packet PING : ping 0000037b
+DEBUG  | wrapperp | 2019/12/26 10:46:30 | read a packet PING : ping 0000037b
+DEBUG  | wrapperp | 2019/12/26 10:46:37 | Send a packet PING : ping 000003ae
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Received a packet PING : ping 000003ae
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Send a packet PING : ping 000003ae
+DEBUG  | wrapperp | 2019/12/26 10:46:38 | read a packet PING : ping 000003ae
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:46:38 |   signal number=15 (SIGTERM), source="unknown"
+STATUS | wrapper  | 2019/12/26 10:46:38 | TERM trapped.  Shutting down.
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | wrapperStopProcess(0, TRUE) called.
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2019/12/26 10:46:38 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: calling listener.stop()
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Waiting for WrapperListener.stop runner thread to complete.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: WrapperListener.stop runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Application stop main thread: WrapperListener_stop_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperSimpleApp Debug: stop(0)
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: WrapperListener.stop runner thread stopped.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: returned from listener.stop() -> 0
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: shutdownJVM(0) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Send a packet STOPPED : 0
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Stopped checking for control events.
+DEBUG  | wrapperp | 2019/12/26 10:46:38 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:46:38 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | JVM process exited with a code of 0, leaving the Wrapper exit code set to 0.
+DEBUG  | wrapper  | 2019/12/26 10:46:38 | JVM exited normally.
+DEBUG  | wrapperp | 2019/12/26 10:46:38 | Closing backend socket.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperJNI Debug: Disposing WrapperManager native library.
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: calling System.exit(0)
+INFO   | jvm 1    | 2019/12/26 10:46:38 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2019/12/26 10:46:39 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | The "wrapper.name" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Ignoring redefinition on line #200 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Fixed Value wrapper.name=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Ignored Value wrapper.name=testwrapper
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | The "wrapper.displayname" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Ignoring redefinition on line #203 of configuration file: /Users/nguyenvanhuu/Downloads/java-rsync-mac/conf/wrapper.conf
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Fixed Value wrapper.displayname=sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   Ignored Value wrapper.displayname=Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Spawning intermediate process...
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Spawning daemon process...
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Reloading configuration.
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Configured log file set to '/Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log'.
+STATUS | wrapper  | 2019/12/26 10:47:40 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2019/12/26 10:47:40 | Java Service Wrapper Community Edition 64-bit 3.5.41
+STATUS | wrapper  | 2019/12/26 10:47:40 |   Copyright (C) 1999-2019 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2019/12/26 10:47:40 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2019/12/26 10:47:40 | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Release time: 2019/10/31 00:00:00
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Build time:   2019/10/30 18:43:00
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Timezone:     +07 (   ) Offset: -25200, hasDaylight: 0
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Using tick timer.
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | PID:          1043
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Wrapper configuration properties BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.app.parameter.1                              | com.run.RunUpp
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.check.deadlock                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.check.deadlock.action                        | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.check.deadlock.interval                      | 10
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.check.deadlock.output                        | FULL
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.console.format                               | PM
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.console.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.console.title                                | Test Wrapper Sample Application
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.daemonize                                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.debug                                        | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.description                                  | Test Wrapper Sample Application Description
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.displayname                                  | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.event.jvm_restart.email.body                 | The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.action.1000                           | NONE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.action.1001                           | RESTART
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.action.999                            | NONE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.allow_wildcards.999                   | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.message.1001                          | The JVM has run out of memory.
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.trigger.1000                          | [Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.trigger.1001                          | java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.filter.trigger.999                           | wrapper.filter.trigger.*java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.ignore_sequence_gaps                         | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.additional.auto_bits                    | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.classpath.1                             | ../code/Until.jar
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.classpath.2                             | ../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.command                                 | java
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.library.path.1                          | ../lib
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.java.mainclass                               | org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.java.statusfile                              | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.java.status
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.lang.folder                                  | ../lang
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.logfile                                      | ../logs/wrapper.log
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.logfile.format                               | LPTM
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.logfile.loglevel                             | INFO
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.logfile.maxfiles                             | 0
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.logfile.maxsize                              | 0
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.name                                         | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.ntservice.dependency.1                       | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.ntservice.interactive                        | FALSE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.ntservice.starttype                          | AUTO_START
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.pidfile                                      | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.pid
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.pidfile.strict                               | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit       | TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.request_thread_dump_on_failed_jvm_exit.delay | 20
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.script.version                               | 3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.statusfile                                   | /Users/nguyenvanhuu/Downloads/java-rsync-mac/./sh.script.in.status
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   C | F | wrapper.syslog.ident                                 | sh.script.in
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   F |   | wrapper.syslog.loglevel                              | NONE
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Wrapper configuration properties END:
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | _=/Users/nguyenvanhuu/Downloads/java-rsync-mac/./bin/wrapper
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.FpzpJaic5W/Render
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | HOME=/Users/nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | LOGNAME=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | PATH=/usr/bin:/bin:/usr/sbin:/sbin
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | PWD=/
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ePCYy1KkMP/Listeners
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | TMPDIR=/var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T/
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | USER=nguyenvanhuu
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_ARCH=universal
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_BASE_NAME=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_BIN_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_CONF_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/conf
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_EDITION=Community
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_HOST_NAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_HOSTNAME=iMacSpring.local
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P--W- | WRAPPER_INIT_DIR=/
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_OS=macosx
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_PID=1043
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_RUN_MODE=service
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_VERSION=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   ---W- | WRAPPER_WORKING_DIR=/Users/nguyenvanhuu/Downloads/java-rsync-mac/bin
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | XPC_FLAGS=0x0
+DEBUG  | wrapper  | 2019/12/26 10:47:40 |   P---- | XPC_SERVICE_NAME=0
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Environment variables END:
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | 
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Number of open file descriptors limits: 256 (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:47:40 | Data segment size limits: unlimited (soft), unlimited (hard).
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2019/12/26 10:47:41 | server listening on port 32000.
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Resolved the real path of wrapper.java.command from system PATH: /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Magic number for file /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java: 0xcafebabe
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Java Command Line (Query Java Version):
+DEBUG  | wrapper  | 2019/12/26 10:47:41 |   Command[0] : /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:47:41 |   Command[1] : -version
+DEBUG  | jvm ver. | 2019/12/26 10:47:41 | java version "1.8.0_111"
+DEBUG  | jvm ver. | 2019/12/26 10:47:41 | Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+DEBUG  | jvm ver. | 2019/12/26 10:47:41 | Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:47:41 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Java version parsed to: 8.0.111
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Java vendor parsed to: Oracle
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Java bits parsed to: 64-Bit
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Reading the JVM output using the encoding of the current locale (US-ASCII).
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Unable to resolve the real path of wrapper.java.command as a relative reference: java. No such file or directory (Problem at: /Users/nguyenvanhuu/Downloads/java-rsync-mac/bin/java)
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Resolved the real path of wrapper.java.command from system PATH: /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Magic number for file /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java: 0xcafebabe
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2019/12/26 10:47:41 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2019/12/26 10:47:42 | Launching a JVM...
+DEBUG  | wrapper  | 2019/12/26 10:47:42 | Java Command Line:
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[0] : /System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[1] : -d64
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[2] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[3] : -classpath
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[4] : ../code/Until.jar:../lib/wrapper.jar
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[5] : -Dwrapper.key=OuaTDFs-SZiG0m-G
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[6] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[7] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[8] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[9] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[10] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[11] : -Dwrapper.pid=1043
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[12] : -Dwrapper.version=3.5.41
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[13] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[14] : -Dwrapper.arch=universal
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[15] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[16] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[17] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[18] : org.tanukisoftware.wrapper.WrapperSimpleApp
+DEBUG  | wrapper  | 2019/12/26 10:47:42 |   Command[19] : com.run.RunUpp
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@6bc7c054
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:   Implementation Version: 3.5.41
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:   Location: file:/Users/nguyenvanhuu/Downloads/java-rsync-mac/lib/wrapper.jar
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:     Size: 127,029
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug:     MD5: 51eb9ad242329a1d9ebba0c52fefd849
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2019/12/26 10:47:42 | WrapperManager Debug: Using the Wrapper
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-macosx-universal-64.dylib  Result: no wrapper-macosx-universal-64 in java.library.path
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.dylib  Result: Success!
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Java PID       : 1057
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Java Version   : 1.8.0_111-b14 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: OS Name        : Mac OS X
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: OS Arch        : x86_64
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: 
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperSimpleApp, args[]) called by thread: main
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Open socket to Wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Opened Socket from 31,000 to 32,000
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Send a packet KEY : OuaTDFs-SZiG0m-G
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: handleBackend()
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | closing backend server.
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | read a packet KEY : OuaTDFs-SZiG0m-G
+DEBUG  | wrapper  | 2019/12/26 10:47:43 | Got key from JVM: OuaTDFs-SZiG0m-G
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | Send a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | Send a packet PROPERTIES : (Property Values, Size=7793)
+DEBUG  | wrapper  | 2019/12/26 10:47:43 | Start Application.
+DEBUG  | wrapperp | 2019/12/26 10:47:43 | Send a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Received a packet LOGFILE : /Users/nguyenvanhuu/Downloads/java-rsync-mac/logs/wrapper.log
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=7793)
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Java temporary directory: /var/folders/vl/6xcyb1dd1cxcnlzf706lr6gw0000gn/T
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperSimpleApp Debug: start(args) Will wait up to 2 seconds for the main method to complete.
+INFO   | jvm 1    | 2019/12/26 10:47:43 | WrapperSimpleApp Debug: invoking main method
+INFO   | jvm 1    | 2019/12/26 10:47:43 | /Users/nguyenvanhuu/Downloads/DongboFile_Macos
+INFO   | jvm 1    | 2019/12/26 10:47:44 | WrapperManager Debug: Send a packet START_PENDING : 5000
+DEBUG  | wrapperp | 2019/12/26 10:47:44 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:47:44 | JVM signaled a start pending with waitHint of 5000 millis.
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperManager Debug: Send a packet START_PENDING : 5000
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperSimpleApp Debug: start(args) end.  Main Completed=false, exitCode=null
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperManager Debug: Send a packet STARTED : 
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperManager Debug: WrapperListener.start runner thread stopped.
+INFO   | jvm 1    | 2019/12/26 10:47:45 | WrapperManager Debug: Startup runner thread stopped.
+DEBUG  | wrapperp | 2019/12/26 10:47:45 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2019/12/26 10:47:45 | JVM signaled a start pending with waitHint of 5000 millis.
+DEBUG  | wrapperp | 2019/12/26 10:47:45 | read a packet STARTED : 
+DEBUG  | wrapper  | 2019/12/26 10:47:45 | JVM signaled that it was started.
+DEBUG  | wrapperp | 2019/12/26 10:47:48 | Send a packet PING : ping fffffe35
+INFO   | jvm 1    | 2019/12/26 10:47:48 | WrapperManager Debug: Received a packet PING : ping fffffe35
+INFO   | jvm 1    | 2019/12/26 10:47:48 | WrapperManager Debug: Send a packet PING : ping fffffe35
+DEBUG  | wrapperp | 2019/12/26 10:47:48 | read a packet PING : ping fffffe35
+DEBUG  | wrapperp | 2019/12/26 10:47:55 | Send a packet PING : ping fffffe68
+INFO   | jvm 1    | 2019/12/26 10:47:55 | WrapperManager Debug: Received a packet PING : ping fffffe68
+INFO   | jvm 1    | 2019/12/26 10:47:55 | WrapperManager Debug: Send a packet PING : ping fffffe68
+DEBUG  | wrapperp | 2019/12/26 10:47:55 | read a packet PING : ping fffffe68
+DEBUG  | wrapperp | 2019/12/26 10:48:02 | Send a packet PING : ping fffffe9a
+INFO   | jvm 1    | 2019/12/26 10:48:02 | WrapperManager Debug: Received a packet PING : ping fffffe9a
+INFO   | jvm 1    | 2019/12/26 10:48:02 | WrapperManager Debug: Send a packet PING : ping fffffe9a
+DEBUG  | wrapperp | 2019/12/26 10:48:02 | read a packet PING : ping fffffe9a
+DEBUG  | wrapperp | 2019/12/26 10:48:09 | Send a packet PING : ping fffffecc
+INFO   | jvm 1    | 2019/12/26 10:48:09 | WrapperManager Debug: Received a packet PING : ping fffffecc
+INFO   | jvm 1    | 2019/12/26 10:48:09 | WrapperManager Debug: Send a packet PING : ping fffffecc
+DEBUG  | wrapperp | 2019/12/26 10:48:09 | read a packet PING : ping fffffecc
+DEBUG  | wrapperp | 2019/12/26 10:48:16 | Send a packet PING : ping fffffeff
+INFO   | jvm 1    | 2019/12/26 10:48:16 | WrapperManager Debug: Received a packet PING : ping fffffeff
+INFO   | jvm 1    | 2019/12/26 10:48:16 | WrapperManager Debug: Send a packet PING : ping fffffeff
+DEBUG  | wrapperp | 2019/12/26 10:48:16 | read a packet PING : ping fffffeff
+DEBUG  | wrapperp | 2019/12/26 10:48:23 | Send a packet PING : ping ffffff31
+INFO   | jvm 1    | 2019/12/26 10:48:23 | WrapperManager Debug: Received a packet PING : ping ffffff31
+INFO   | jvm 1    | 2019/12/26 10:48:23 | WrapperManager Debug: Send a packet PING : ping ffffff31
+DEBUG  | wrapperp | 2019/12/26 10:48:23 | read a packet PING : ping ffffff31
+DEBUG  | wrapperp | 2019/12/26 10:48:30 | Send a packet PING : ping ffffff63
+INFO   | jvm 1    | 2019/12/26 10:48:30 | WrapperManager Debug: Received a packet PING : ping ffffff63
+INFO   | jvm 1    | 2019/12/26 10:48:30 | WrapperManager Debug: Send a packet PING : ping ffffff63
+DEBUG  | wrapperp | 2019/12/26 10:48:30 | read a packet PING : ping ffffff63
+DEBUG  | wrapperp | 2019/12/26 10:48:37 | Send a packet PING : ping ffffff95
+INFO   | jvm 1    | 2019/12/26 10:48:38 | WrapperManager Debug: Received a packet PING : ping ffffff95
+INFO   | jvm 1    | 2019/12/26 10:48:38 | WrapperManager Debug: Send a packet PING : ping ffffff95
+DEBUG  | wrapperp | 2019/12/26 10:48:38 | read a packet PING : ping ffffff95
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:48:44 |   signal number=15 (SIGTERM), source="unknown"
+STATUS | wrapper  | 2019/12/26 10:48:44 | TERM trapped.  Shutting down.
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | wrapperStopProcess(0, TRUE) called.
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2019/12/26 10:48:44 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: calling listener.stop()
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Waiting for WrapperListener.stop runner thread to complete.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: WrapperListener.stop runner thread started.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Application stop main thread: WrapperListener_stop_runner Priority: 5
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperSimpleApp Debug: stop(0)
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: WrapperListener.stop runner thread stopped.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: returned from listener.stop() -> 0
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: shutdownJVM(0) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Send a packet STOPPED : 0
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Stopped checking for control events.
+DEBUG  | wrapperp | 2019/12/26 10:48:44 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2019/12/26 10:48:44 |   signal number=20 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | JVM process exited with a code of 0, leaving the Wrapper exit code set to 0.
+DEBUG  | wrapper  | 2019/12/26 10:48:44 | JVM exited normally.
+DEBUG  | wrapperp | 2019/12/26 10:48:44 | Closing backend socket.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperJNI Debug: Disposing WrapperManager native library.
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: calling System.exit(0)
+INFO   | jvm 1    | 2019/12/26 10:48:44 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2019/12/26 10:48:44 | <-- Wrapper Stopped
